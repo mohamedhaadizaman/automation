@@ -32,7 +32,7 @@ time.sleep(5)
 subject = gmail.find_element_by_name("subjectbox")
 subject.send_keys(subj)
 time.sleep(10)
-'''msg=gmail.find_element_by_class_name("Am Al editable LW-avf")
+'''msg=gmail.find_element_by_class_name("Am Al editable LW-avf")  #This is causing a problem
 msg.send_keys(content)
 time.sleep(5)'''
 send=gmail.find_element_by_css_selector(".gU")
